@@ -2,6 +2,36 @@
   text-align: center;
 }
 
+.mytodoapp{
+  display: flex;
+  text-align:center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(./images/bg.png);
+  
+}
+.deleted
+{
+  background-color: rgb(255, 153, 0);
+  margin: 5px;
+  border: dashed 1px gray;
+  width:50%;
+  
+}
+.alltasks
+{
+  background-color: rgb(4, 126, 163);
+  margin: 5px;
+  border: dashed 1px wheat;
+  width:50%;
+}
+
+.completed{
+  background-color: rgb(47, 255, 175);
+  margin: 5px;
+  border: dashed 1px gray;
+  width:50%;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
